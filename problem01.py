@@ -1,6 +1,11 @@
-def sum():
-    a = int(input("enter the first number :"))
-    b = int(input("enter the second number :"))
+def main():
+    for i in range (65, 91):
+        print(chr(i))
 
-    print("the sum of the number :",a+b)
-sum()
+main()
+
+def main():
+    for i in range (97, 123):
+        print(chr(i))
+
+main()

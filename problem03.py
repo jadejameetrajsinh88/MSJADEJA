@@ -1,6 +1,6 @@
-def mul():
-    a = int(input("enter the first number :"))
-    b = int(input("enter the second number :"))
+a = input("enter the string :")
+b=0
+for i in a:
+    b+=1
 
-    print("the multification of the number :",a*b)
-mul()
+print(b)
